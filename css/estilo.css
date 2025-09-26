@@ -2,14 +2,17 @@
     max-width: 1440px;
     height: 700px;
     display: flex;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 50px auto;
+    gap: 130px;
+    align-items: center;
+    padding: 0 20px;
     
 }
 
 .dados{
-   
-    
+   display: flex;
+  flex-direction: column;
+  
 }
 
 #banner{
@@ -17,13 +20,14 @@
     height: 700px;
     background-color: #F5F3F0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto1{
     width: 350px;
     height: 350px;
-    margin: 165px 180px auto;   
+    object-fit: cover;   
         
 }
 
@@ -31,18 +35,23 @@
     text-decoration: none;
     background-color: cadetblue;
     color: #F5F3F0;
-    padding: 12px 20px;
+    padding: 14px 36px;
+    display: inline-block;
+    letter-spacing: 1px;
+    width: fit-content;
 }
 
 .fonte1{
     font-size: 126px;
-    
+    line-height: 0.8;
+    margin: 0 0 25px;
 }
 
 .sub{
     font-size: 24px;
     color: #9E8C6C;
-    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
     
 }
 
@@ -50,6 +59,7 @@
     .container{
         max-width: 100%;
         flex-direction: column;
+        gap: 80px;
     }
 
     #banner{
