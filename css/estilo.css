@@ -208,11 +208,11 @@ html{
 #footer{
     flex-direction: column;
     height: auto;
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 80px;
 }
 .tega{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 .top{
@@ -223,6 +223,10 @@ html{
     width: 100%;
     height: auto;
 }
+.social{
+    font-size: 25px;
+}
+
 }
 
 
